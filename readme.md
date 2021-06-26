@@ -23,7 +23,7 @@ de *master* con *styled* no causó ningún conflicto.
 
 #¿Qué comando o comandos utilizaste en el paso 25?
 
-Para poder dibujar el diagrama he usado el comando *$ git log --graph --pretty=oneline* con el siguiente resultado:
+Para poder dibujar el diagrama he usado el comando *$ git log --graph --pretty=oneline* 
 
 #El merge del paso 26, ¿Podría ser fast forward? ¿Por qué?
 En este paso se ha podido realizar un merge fast forward, dado que en la rama *title* tiene la información que contenía la rama *master*, con la única modificación del título de git-nuestro.md
