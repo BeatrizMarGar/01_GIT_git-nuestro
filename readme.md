@@ -24,18 +24,7 @@ de *master* con *styled* no causó ningún conflicto.
 #¿Qué comando o comandos utilizaste en el paso 25?
 
 Para poder dibujar el diagrama he usado el comando *$ git log --graph --pretty=oneline* con el siguiente resultado:
-"
-*   bebb1532345344d0dd9bdcdaa58bf6912ba3c579 (HEAD -> master) Merge branch 'styled'
-|\
-| *   8239b3e0c7cc1d04c192ee52883cc60ccf5b3dd6 (styled) P20: resolucion de conflicto con merge
-| |\
-| | * 200f442274ee210c36886d06d9ec5976d5dd8c20 (htmlify) P18: tercera modificacion y commit de git-nuestro
-| |/
-|/|
-| * c5da8d661c9c7f01ceb87a7fddfa6e617c1d10f0 P10: segunda actualización de git-nuestro
-|/
-* c0842c2c42f2daa469802f29e5d4700d07e7d876 P4: primer commit de git-nuestro
-"
+
 #El merge del paso 26, ¿Podría ser fast forward? ¿Por qué?
 En este paso se ha podido realizar un merge fast forward, dado que en la rama *title* tiene la información que contenía la rama *master*, con la única modificación del título de git-nuestro.md
 
